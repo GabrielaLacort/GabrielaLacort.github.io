@@ -1,0 +1,105 @@
+
+*{
+    box-sizing: 100%
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(209, 226, 228);
+}
+
+.contenedor{
+    width: 100%;
+}
+
+.columna1{
+    width: 50%;
+    float: left;
+    justify-content: center;
+    top: 500px;
+    position: relative;
+}
+
+.columna2{
+        width: 50%;
+    float:right;
+    background-color: aqua;
+    text-align: center;
+    top: 500px;
+    position: relative;
+}
+
+h1{ 
+    border: 10px;
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    margin-top: 0px;
+    color:black;
+    background-color: aqua;     
+}
+
+ h2,h3,h4,h5 { 
+    background-color: aqua;
+    color: black;
+    margin: 10px;
+    border-color: black;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;  
+}
+
+p {
+    background-color: rgb(17, 19, 19);
+    color: rgb(20, 240, 203);
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
+.logo{
+    background-color: aqua;
+    position: relative;
+    top: 20px;
+}
+
+.contactanos{
+    background-color: aqua;
+    color: black;
+}
+
+form {
+    margin: 0 auto;
+    padding: 15px;
+    width: 30%;
+    float: left;
+}
+
+img{
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.alineadotexto{
+    vertical-align: bottom;
+}
+
+li{
+    padding: 5px;
+}
+
+video{
+    padding: 15px;
+    width: 80%;   
+}
+
+a{
+    color: aliceblue;
+}
+
