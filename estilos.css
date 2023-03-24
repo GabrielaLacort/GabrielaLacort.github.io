@@ -165,7 +165,29 @@ a{
     font-family: 'Lucida Sans', 
    }
 
-   
+   .fab {
+    color: black;
+    padding: 0px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    
+   }
+
+   .botonactividad{
+    font-family: 'Lucida Sans';
+    font-size: medium;
+    color: white;
+    background-color: blueviolet;
+   }
+
+
+   .botoninstagram{
+    background-color: aqua;
+    border-color: aqua;
+   }
 
    @media (max-width: 768px) {
     body {
