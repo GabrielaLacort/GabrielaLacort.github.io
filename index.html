@@ -19,15 +19,38 @@
   
 <body>
 
+  <header class="header"> 
+    <nav class="nav">
+       
+        <ul class="nav-menu">
+            <li class="nav-menu-item">
+                <a href="#miancla1" class="nav-menu-link nav-link  ">Actividades</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="#miancla4" class="nav-menu-link nav-link ">Quienes somos</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="#miancla2" class="nav-menu-link nav-link ">Contacto</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="#miancla3" class="nav-menu-link nav-link">videos</a>
+            </li>
+            </li>
+        </ul>
+    </nav>
+  </header>
+
 <div class="contenedor">    
    <div class="columna1" col-1>
-        <h1>
-          Hola! Soy Gabriela Lacort, profesora en Sinergia Fitness. </h1>
-        <P> En nuestro GIMNASIO VIRTUAL vas a encontrar clases grupales y personalizadas,
-         de distintas <a href="#miancla1">actividades</a> :  Pilates, Streching, Funcional, Entrenamiento.<br>
+
+    <h1 id="miancla4">Quiénes Somos</h1>
+
+       <h2 > Hola! Soy Gabriela Lacort, profesora en Sinergia Fitness <br>
+        En nuestro GIMNASIO VIRTUAL vas a encontrar clases grupales y personalizadas,
+         de distintas actividades:  Pilates, Streching, Funcional, Entrenamiento.<br>
         <strong>¡Estas a un click de ser tu mejor versión!</strong>
-        </P>
-        <h2> Nuestra Formación</h2>
+
+        <h2> NUESTRA FORMACIÓN</h2>
         <ul type="square">
          <li>Profesores en Educación Física</li>
          <li>Entrenador Personal. </li>
@@ -37,7 +60,7 @@
 
         <h2 id="miancla1"> ACTIVIDADES GRUPALES </h2>
    
-        <div id="miancla1">
+        <div>
           <p id="entrenemos">*PILATES MAT</p>
           <button type="button"id="boton">Qué es Pilates Mat? </button>
         </div>
@@ -53,7 +76,7 @@
         </div>
        <script src="Funtion.js"></script>
    
-       <h3> Contactanos!</h3>
+       <h2 id="miancla2">  CONTACTANOS! </h2>
        <p class="contactanos">Envianos un mensaje y te propondremos un entrenamiento orientado a tus objetivos 
          y acorde a tus horarios disponibles. </p>
         <div class="formulariocontacto">
@@ -72,13 +95,9 @@
     </div>
 
     <div class="columna2" col-2>
-      <p class="logo"> <a href="https://www.instagram.com/sinergiafitness__/"> 
-      <img class="alineadotexto" alt= Entrenamiento src="logo.jpg" height="500px" width="600px"/>
-        </a>
-      </p>
-      <h3>Querés conocer más de nosotros? hace "click" sobre nuestro
-          logo.</h3>
-      <video src="video1.mp4" width="400"height="400" loop autoplay muted controls>
+      
+      <h2 id="miancla3">VIDEOS</h2>
+      <video src="video1.mp4" width="400"height="400" loop  muted controls>
           Este video no puede reproducirse con su navegador
       </video>
       <h3>  Dale "play" a los videos, para conocer algo de Pilates y Entrenamiento!</h3>
@@ -87,10 +106,10 @@
       </video>
       <h3>También podes seguirnos en las redes!</h3>      
       <div style="text-align:center">
-          <i class="fa-brands fa-facebook fa-4x"></i>
-          <i class="fa-brands fa-instagram fa-4x"></i>
-          <i class="fa-solid fa-dumbbell fa-4x"></i>
-          <i class="fa-solid fa-hand-holding-heart fa-4x"></i>;
+        <p>  <i class="fa-brands fa-facebook fa-3x"></i>
+         <i class="fa-brands fa-instagram fa-3x"></i>
+           <a href="https://www.instagram.com/sinergiafitness__/"></a></p>
+        
           <p>Página hecha por Gabrielalacort@gmail.com</p>
       </div>
     </div>

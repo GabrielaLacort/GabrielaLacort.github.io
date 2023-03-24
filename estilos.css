@@ -1,6 +1,7 @@
 
 *{
-    box-sizing: 100%
+    box-sizing: border-box;
+    margin: 0;
 }
 
 *{
@@ -9,10 +10,13 @@
 
 body{
     background-color: rgb(209, 226, 228);
+    padding: 90px 20px 0;
 }
 
 .contenedor{
     width: 100%;
+    
+    
 }
 
 .columna1{
@@ -21,37 +25,36 @@ body{
     justify-content: center;
     top: 500px;
     position: relative;
+    background-color: aqua;
 }
 
 .columna2{
         width: 50%;
-    float:right;
-    background-color: aqua;
+    float: right;
     text-align: center;
     top: 500px;
     position: relative;
+    background-color: aqua;
 }
 
 h1{ 
-    border: 10px;
-    padding-top: 50px;
+    border: 0px;
+    padding-top: 10px;
     padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 50px;
+    padding-bottom: 5px;
+    padding-left: 10px;
     margin-top: 0px;
-    color:black;
-    background-color: aqua;     
+    color:black;     
 }
 
  h2,h3,h4,h5 { 
-    background-color: aqua;
     color: black;
-    margin: 10px;
+    margin: 0px;
     border-color: black;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;  
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;  
 }
 
 p {
@@ -71,6 +74,7 @@ p {
 .contactanos{
     background-color: aqua;
     color: black;
+    padding: 0;
 }
 
 form {
@@ -103,3 +107,68 @@ a{
     color: aliceblue;
 }
 
+
+.header {
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
+   }
+
+   .nav{
+    display: flex;
+    justify-content:space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 999;
+    left: 300px;
+
+    
+   }
+
+   .nav-link{
+    color: white;
+    text-decoration: none;
+   }
+
+   .nav-menu{
+    display: flex;
+    margin-right: 20px;
+    list-style: none;
+    }
+
+   .nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+    text-align: center;
+   }
+
+   .nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+
+   }
+   .nav-menu-link:hover {
+    background-color: rgb(26, 23, 23);
+    transition: 0.5s;
+   }
+
+   .square{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 
+   }
+
+   
+
+   @media (max-width: 768px) {
+    body {
+        background-color: aliceblue;
+    }
+   }
