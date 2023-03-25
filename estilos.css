@@ -15,6 +15,8 @@ body{
 
 .contenedor{
     width: 100%;
+    border: 0;
+    padding: 0;
     
     
 }
@@ -23,66 +25,88 @@ body{
     width: 50%;
     float: left;
     justify-content: center;
-    top: 500px;
+    top: 450px;
     position: relative;
-    background-color: aqua;
+    background-color:  rgb(156, 243, 231);
+    text-align: justify;
 }
 
 .columna2{
         width: 50%;
     float: right;
-    text-align: center;
-    top: 500px;
+    justify-content: center;
+    text-align:justify;
+    top: 450px;
     position: relative;
-    background-color: aqua;
+    background-color: rgb(156, 243, 231);
+    padding: 0%;
 }
 
 h1{ 
-    border: 0px;
+    border: 10px;
     padding-top: 10px;
-    padding-right: 15px;
-    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
-    margin-top: 0px;
+    border: 10px;
     color:black;     
 }
 
  h2,h3,h4,h5 { 
     color: black;
-    margin: 0px;
+    margin: 10px;
     border-color: black;
-    padding-top: 30px;
+    padding-top: 0px;
     padding-right: 10px;
     padding-bottom: 0px;
     padding-left: 10px;  
 }
 
 p {
-    background-color: rgb(17, 19, 19);
-    color: rgb(20, 240, 203);
-    margin: 10px;
+    background-color:aliceblue;
+    color: black;
+    margin: 20px;
     padding: 10px;
     font-size: large;
 }
 
-.logo{
-    background-color: aqua;
-    position: relative;
-    top: 20px;
+.botonver-{
+    font-family: 'Lucida Sans';
+    font-size: medium;
+    color: white;
+    background-color: blueviolet;
 }
 
+
+
 .contactanos{
-    background-color: aqua;
+    background-color: rgb(116, 209, 209);
     color: black;
-    padding: 0;
+    padding: 10;
+    padding-top: 10px;
+    margin: 10;
+}
+
+.quienessomos{
+    background-color: rgb(116, 209, 209);
+    color: black;
+    padding: 10;
+    padding-top: 10px;
+    margin: 10;
 }
 
 form {
-    margin: 0 auto;
-    padding: 15px;
-    width: 30%;
+    margin: 10;
+    padding: 10px;
+    width: 38%;
     float: left;
+    background-color: rgb(116, 209, 209); 
+    text-align:start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    position: absolute;
 }
+
 
 img{
     padding: 15px;
@@ -96,6 +120,9 @@ img{
 
 li{
     padding: 5px;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 video{
@@ -185,8 +212,8 @@ a{
 
 
    .botoninstagram{
-    background-color: aqua;
-    border-color: aqua;
+    background-color: rgb(116, 209, 209);
+    border-color:rgb(116, 209, 209);
    }
 
    @media (max-width: 768px) {

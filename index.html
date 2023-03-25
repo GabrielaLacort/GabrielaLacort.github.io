@@ -12,7 +12,6 @@
         background-image: url("fotofondo2.jpg");
       background-repeat: no-repeat;
       background-position: top;
-      background-size:auto;
       }
     </style>
 <head>
@@ -42,42 +41,44 @@
 
 <div class="contenedor">    
    <div class="columna1" col-1>
-
-    <h1 id="miancla4">Quiénes Somos</h1>
-
-       <h2 > Hola! Soy Gabriela Lacort, profesora en Sinergia Fitness <br>
+    <h1 id="miancla4"> <br></h1>
+    
+      <div class="quienessomos"> 
+      <h1 >Quiénes Somos</h1>
+       <h2> Hola! Soy Gabriela Lacort, profesora en Sinergia Fitness. <br>
         En nuestro GIMNASIO VIRTUAL vas a encontrar clases grupales y personalizadas,
-         de distintas actividades:  Pilates, Streching, Funcional, Entrenamiento.<br>
-        <strong>¡Estas a un click de ser tu mejor versión!</strong>
-
-        <h2> <i class="fa-solid fa-graduation-cap"></i> NUESTRA FORMACIÓN</h2>
-        <ul type="square">
-         <li>Profesores en Educación Física</li>
-         <li>Entrenador Personal. </li>
-         <li>Profesores de Pilates.</li>
-         <li>Profesores de Gimnasias Aeróbicas. </li>
-       </ul>
-
-        <h2 id="miancla1"><i class="fa-solid fa-dumbbell"></i> ACTIVIDADES GRUPALES </h2>
+         de distintas actividades:  Pilates, Streching, Funcional, Entrenamiento. <br>
+        <br>
+        <strong>¡Estas a un click de ser tu mejor versión!</strong> </h2>
+      </div>
+       
+        <h1 id="miancla1"> <br></h1>
+        <h2 ><i class="fa-solid fa-dumbbell"></i> ACTIVIDADES GRUPALES </h2>
         
    
         <div>
           <p id="entrenemos">*PILATES MAT</p>
           <button type="button"id="boton" class="botonactividad">Qué es Pilates Mat? </button>
+          <button type="button"id= "ver-3" class="botonver-"> ver-</button>
         </div>
 
         <div>
           <p id="streching es">*STRECHING</p>
           <button type="button"id="streching"class="botonactividad">Qué es el Streching? </button>
+          <button type="button"id= "ver-2" class="botonver-"> ver-</button>
         </div>
 
         <div>
           <p id="funcional es">*ENTRENAMIENTO FUNCIONAL</p>
           <button type="button"id="funcional"class="botonactividad">Qué es el Funcional? </button>
+          <button type="button"id= "ver-" class="botonver-"> ver-</button>
         </div>
        <script src="Funtion.js"></script>
-   
-       <h2 id="miancla2"> CONTACTANOS! </h2>
+
+       <h1 id="miancla2" > <br></h1>
+       <div class="contactanos">
+       
+       <h2 class="contactanos"> CONTACTANOS! </h2>
        <p class="contactanos">Envianos un mensaje y te propondremos un entrenamiento orientado a tus objetivos 
          y acorde a tus horarios disponibles. </p>
         <div class="formulariocontacto">
@@ -86,17 +87,27 @@
             <input type="text"name="nombre" id="nombre" class="nombre" placeholder="ingrese su nombre"required>
             <label >Apellido</label>
             <input type="text" name="apellido" id="apellido" class="apellido" placeholder="ingrese su apellido" required>
-            <label>E-mail    </label>
-            <input type="email" name="e-mail" id="email" class="email" placeholder="ingrese su e-mail" required>
-            <label for="Que clases te intersan?">Envianos un mensaje</label>
-            <textarea name="comentarios"id="comentarios" cols="30" rows="10" required></textarea name=comentarios>
+            <label>Email    </label>
+            <input type="email" name="email" id="email" class="email" placeholder="ingrese su email" required>
+            <label for="Que clases te intersan?"> Mensaje</label>
+            <textarea name="comentarios"id="comentarios" cols="25" rows="10" required></textarea name=comentarios>
             <input type="submit"value="Enviar">
           </form> 
+        </div>
         </div>
     </div>
 
     <div class="columna2" col-2>
+      <h1> <br> </h1>
+      <h2> <i class="fa-solid fa-graduation-cap"></i> NUESTRA FORMACIÓN</h2>
+      <ul type="square" >
+       <li>Profesores en Educación Física</li>
+       <li>Entrenador Personal. </li>
+       <li>Profesores de Pilates.</li>
+       <li>Profesores de Gimnasias Aeróbicas. </li>
+     </ul>
       
+     <h1 id="miancla3" > <br> </h1>
       <h2 id="miancla3">VIDEOS</h2>
       <video src="video1.mp4" width="400"height="400" loop  muted controls>
           Este video no puede reproducirse con su navegador
@@ -105,14 +116,15 @@
       <video src="video2.mp4" width="400"height="400" loop muted controls>
           Este video no puede reproducirse con su navegador
       </video>
-      <h3>También podes seguirnos en las redes!</h3>      
+      <h3>También podes seguirnos en las redes,
+        hace click!
+      </h3>      
       <div style="text-align:center">
         
         <i class="fa-brands fa-facebook fa-3x"></i>
          
          <button class="botoninstagram"><a class="fab fa-instagram"    href="https://www.instagram.com/sinergiafitness__/"></a>
           </button> 
-          <p>Página hecha por Gabrielalacort@gmail.com</p>
       </div>
     </div>
 </div>

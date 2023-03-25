@@ -10,3 +10,15 @@ document.getElementById("streching").onclick = function () {
 document.getElementById("funcional").onclick = function () {
     document.getElementById ("funcional es").innerHTML= "El entrenamiento Funcional es una actividad que te permitira entrenar la fuerza de todo el cuerpo de manera integral con los elementos que tienes en casa, con ejercicios que iran desde lo simple a lo complejo, cada ejercicio será adaptado de acuerdo a tu experiencia en técnicas de entrenamiento y a posibles lesiones previas, para que puedas aprovechar cada entrenamiento.   "
 }
+
+document.getElementById("ver-").onclick=function(){
+    document.getElementById ("funcional es").innerHTML= "*ENTRENAMIENTO FUNCIONAL"
+}
+
+document.getElementById("ver-2").onclick=function(){
+    document.getElementById ("streching es").innerHTML= "*STRECHING"
+}
+
+ document.getElementById("ver-3").onclick=function(){
+        document.getElementById ("entrenemos").innerHTML= "*PILATES" 
+ }   
