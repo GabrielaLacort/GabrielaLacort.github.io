@@ -356,7 +356,4 @@ form {
     left: 0;
    }
 
-   .toggle: focus:not (: focus-visible){
-    outline: none;
-   }
 }
