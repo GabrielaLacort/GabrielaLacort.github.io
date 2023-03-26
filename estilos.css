@@ -9,14 +9,21 @@
 }
 
 body{
-    background-color: rgb(209, 226, 228);
+    background-color:  rgb(116, 209, 209);
     padding: 90px 20px 0;
+
+    background-image: url("fotofondo2.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    background-size: 75%;
 }
 
 .contenedor{
     width: 100%;
     border: 0;
     padding: 0;
+    top: 450px;
     
     
 }
@@ -25,7 +32,7 @@ body{
     width: 50%;
     float: left;
     justify-content: center;
-    top: 450px;
+    top:450px;
     position: relative;
     background-color:  rgb(156, 243, 231);
     text-align: justify;
@@ -62,6 +69,12 @@ h1{
     padding-left: 10px;  
 }
 
+.titulovideo{
+    background-color: rgb(116, 209, 209);
+    margin: 0px;
+    padding-top: 20px;
+}
+
 p {
     background-color:aliceblue;
     color: black;
@@ -80,31 +93,39 @@ p {
 
 
 .contactanos{
-    background-color: rgb(116, 209, 209);
+    background-color:  rgb(116, 209, 209);
     color: black;
-    padding: 10;
+    padding: 10px;
     padding-top: 10px;
     margin: 10;
 }
 
 .quienessomos{
-    background-color: rgb(116, 209, 209);
+    background-color: white;
     color: black;
-    padding: 10;
+    padding: 15;
     padding-top: 10px;
-    margin: 10;
+    padding-bottom: 10px;
+    margin: none;
 }
 
 form {
-    margin: 10;
+    margin: 0;
     padding: 10px;
-    width: 38%;
+    width: 50%;
     float: left;
     background-color: rgb(116, 209, 209); 
     text-align:start;
     display: -webkit-box;
     display: -ms-flexbox;
     position: absolute;
+    
+}
+
+.input {
+    width: 100%;
+    align-items: start;
+
 }
 
 
@@ -126,8 +147,10 @@ li{
 }
 
 video{
-    padding: 15px;
-    width: 80%;   
+    padding: 0px 50px;
+    width: 100%;
+    background-color: rgb(116, 209, 209);
+    
 }
 
 a{
@@ -216,8 +239,68 @@ a{
     border-color:rgb(116, 209, 209);
    }
 
+
+
    @media (max-width: 768px) {
-    body {
-        background-color: aliceblue;
+    body{
+        background-color: rgb(209, 226, 228);
+        padding: 0px 20px 0;
+        padding-top: 80px;
+    
+        background-image: url("fotofondo2.jpg");
+        background-repeat: no-repeat;
+        background-position: top;
+        display: flex;
+        background-size: 80%;
     }
+    h1,h2,h3,h4,h5 { 
+        color: black;
+        margin: 10px;
+        border-color: black;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;  
+        font-size: medium;
    }
+   p {
+    background-color:aliceblue;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    font-size: medium;
+    }   
+
+
+form {
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(116, 209, 209); 
+    text-align:start;
+    display:block;
+   }
+
+   
+.columna1{
+    width: 100%;
+    justify-content: center;
+    top:120px;
+    position: relative;
+    background-color:  rgb(156, 243, 231);
+    text-align: justify;
+    display: block;
+    }
+
+.columna2{
+        width: 100%;
+    justify-content: center;
+    text-align:justify;
+    top: 570px;
+    position: relative;
+    background-color: rgb(156, 243, 231);
+    padding: 0%;
+    display: block;
+    
+    }
+}

@@ -7,13 +7,7 @@
     <title> CV on-line Lacort Gabriela</title>
     <link rel="stylesheet" href="estilos.css">
     <script src="https://kit.fontawesome.com/43637056df.js" crossorigin="anonymous"></script>
-    <style>
-      body{
-        background-image: url("fotofondo2.jpg");
-      background-repeat: no-repeat;
-      background-position: top;
-      }
-    </style>
+    
 <head>
   
 <body>
@@ -44,7 +38,7 @@
     <h1 id="miancla4"> <br></h1>
     
       <div class="quienessomos"> 
-      <h1 >Quiénes Somos</h1>
+      <h1 >QUIÉNES SOMOS</h1>
        <h2> Hola! Soy Gabriela Lacort, profesora en Sinergia Fitness. <br>
         En nuestro GIMNASIO VIRTUAL vas a encontrar clases grupales y personalizadas,
          de distintas actividades:  Pilates, Streching, Funcional, Entrenamiento. <br>
@@ -84,13 +78,13 @@
         <div class="formulariocontacto">
           <form action="enviar.php/enviar.php" method="post">
             <label >Nombre</label>
-            <input type="text"name="nombre" id="nombre" class="nombre" placeholder="ingrese su nombre"required>
+            <input type="text"name="nombre" id="nombre" class="input" placeholder="ingrese su nombre"required>
             <label >Apellido</label>
-            <input type="text" name="apellido" id="apellido" class="apellido" placeholder="ingrese su apellido" required>
+            <input type="text" name="apellido" id="apellido" class="input" placeholder="ingrese su apellido" required>
             <label>Email    </label>
-            <input type="email" name="email" id="email" class="email" placeholder="ingrese su email" required>
+            <input type="email" name="email" id="email" class="input" placeholder="ingrese su email" required>
             <label for="Que clases te intersan?"> Mensaje</label>
-            <textarea name="comentarios"id="comentarios" cols="25" rows="10" required></textarea name=comentarios>
+            <textarea class= "input" name="comentarios"id="comentarios" cols="25" rows="10" required></textarea name=comentarios>
             <input type="submit"value="Enviar">
           </form> 
         </div>
@@ -98,7 +92,7 @@
     </div>
 
     <div class="columna2" col-2>
-      <h1> <br> </h1>
+      <h1> <br> <br></h1>
       <h2> <i class="fa-solid fa-graduation-cap"></i> NUESTRA FORMACIÓN</h2>
       <ul type="square" >
        <li>Profesores en Educación Física</li>
@@ -108,10 +102,12 @@
      </ul>
       
      <h1 id="miancla3" > <br> </h1>
-      <h2 id="miancla3">VIDEOS</h2>
+      <h2 id="miancla3" class="titulovideo">VIDEOS</h2>
       <video src="video1.mp4" width="400"height="400" loop  muted controls>
           Este video no puede reproducirse con su navegador
       </video>
+
+      <h1> </h1>
       <h3>  Dale "play" a los videos, para conocer algo de <br> Pilates y Entrenamiento!</h3>
       <video src="video2.mp4" width="400"height="400" loop muted controls>
           Este video no puede reproducirse con su navegador
