@@ -21,4 +21,13 @@ document.getElementById("ver-2").onclick=function(){
 
  document.getElementById("ver-3").onclick=function(){
         document.getElementById ("entrenemos").innerHTML= "*PILATES" 
- }   
+ }  
+ 
+ const toggle = document.querySelector (".toggle")
+ const navmenu = document.querySelector(".nav-menu")
+
+ toggle.addEventListener("click", ()=>{
+    navmenu.classList.toggle("nav-menu-visible")
+ })
+
+ 
