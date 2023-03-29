@@ -10,7 +10,7 @@
 
 body{
     background-color:  rgb(116, 209, 209);
-    padding: 90px 20px 0;
+    padding: 80px 20px 0;
 
     background-image: url("fotofondo2.jpg");
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body{
     width: 100%;
     border: 0;
     padding: 0;
-    
+        
 }
 
 .columna1{
@@ -80,14 +80,6 @@ p {
     padding: 10px;
     font-size: large;
 }
-
-.botonver-{
-    font-family: 'Lucida Sans';
-    font-size: medium;
-    color: white;
-    background-color: blueviolet;
-}
-
 
 
 .contactanos{
@@ -242,19 +234,33 @@ a{
     background-color: blueviolet;
    }
 
+   .botonver-{
+    font-family: 'Lucida Sans';
+    font-size: medium;
+    color: white;
+    background-color: blueviolet;
+}
 
    .botoninstagram{
     background-color: rgb(116, 209, 209);
     border-color:rgb(116, 209, 209);
    }
 
+   .back-top{
+    display: none;
+   }
 
+   footer{
+    margin: 10;
+
+   }
+   
 
    @media (max-width: 768px) {
     body{
         background-color: rgb(209, 226, 228);
         padding: 0px 20px 0;
-        padding-top: 80px;
+        padding-top: 0px;
     
         background-image: url("fotofondo2.jpg");
         background-repeat: no-repeat;
@@ -283,18 +289,23 @@ a{
 
 form {
     margin: 0;
-    padding: 20px;
+    padding: 30px;
+    border: 10px;
     width: 100%;
-    background-color: rgb(116, 209, 209); 
+    background-color: rgb(202, 158, 243);
     text-align:start;
     display:block;
+    position: relative;
+    
+   align-content: center;
    }
 
-   
+       
+
 .columna1{
     width: 100%;
     justify-content: center;
-    top:130px;
+    top:218px;
     position: relative;
     background-color:  rgb(156, 243, 231);
     text-align: justify;
@@ -305,7 +316,7 @@ form {
         width: 100%;
     justify-content: center;
     text-align:justify;
-    top: 580px;
+    top: 210px;
     position: relative;
     background-color: rgb(156, 243, 231);
     padding: 0%;
@@ -354,6 +365,33 @@ form {
 
    .nav-menu-visible{
     left: 0;
+   }
+
+   .back-top{
+    display: block;
+    display: flex;
+    font-size: 40px;
+    z-index: 999;
+    background-color: blueviolet;
+    color: white;
+    position: fixed;
+    margin: 10;
+    top: 500px;
+    right:10px;
+   }
+
+   .botonver-{
+    font-family: 'Lucida Sans';
+    font-size: medium;
+    color: black;
+    background-color: rgb(202, 158, 243);
+   }
+
+   .botonactividad{
+    font-family: 'Lucida Sans';
+    font-size: medium;
+    color: black;
+    background-color: rgb(202, 158, 243);
    }
 
 }
